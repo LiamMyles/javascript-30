@@ -1,0 +1,18 @@
+{
+  "name": "javascript-30",
+  "version": "1.0.0",
+  "description": "Liam's attempt at doing Wes Bos's javascript 30 course",
+  "main": "index.js",
+  "author": "Liam <liam@dayoutwiththekids.co.uk>",
+  "license": "MIT",
+  "scripts": {
+    "build": "node build.js",
+    "predeploy": "yarn build",
+    "deploy": "gh-pages -d .build"
+  },
+  "devDependencies": {
+    "fs-extra": "^9.0.0",
+    "gh-pages": "^2.2.0",
+    "showdown": "^1.9.1"
+  }
+}
